@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>Atrios Andaimes | Locação de Equipamentos</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/logo.png">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarExample">
+    
+    <!-- Navigation -->
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a> 
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text" href="index.html">Nubis</a> -->
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#details">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Produtos</a>
+                    </li>
+            
+                <span class="nav-item">
+                    <a class="btn-solid-sm" href="#div-iframe">Contato</a>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+      
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h1 class="h1-large">Atrios Andaimes</h1>
+                        <p class="p-large">Aqui você encontrará o melhor serviço de locação de equipamentos da região do parque São Rafael</p>
+                        <button class="btn-solid-lg" id="btn-services">Serviços Oferecidos</button>
+
+                        <script>
+                            // Adicione um ouvinte de evento de clique ao botão
+                            document.getElementById('btn-services').addEventListener('click', function() {
+                                // Use a função scrollIntoView para rolar para a seção com o ID "products"
+                                var productsSection = document.getElementById('products');
+                                if (productsSection) {
+                                    productsSection.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            });
+                        </script>
+                        <script>
+                            document.getElementById('btn-services').addEventListener('click', function() {
+                                var servicesElement = document.getElementById('services');
+                                if (servicesElement) {
+                                    servicesElement.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            });
+                        </script>
+                        
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-7">
+                    <div id="top1" class="image-container">
+                        <img id="img-ilu" class="img-fluid" src="images/background ilu.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+ 
+    <!-- Details 1 -->
+    <div id="details" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img id="img-ilu" class="img-fluid" src="images/empresat.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2>Nossa história</h2>
+                        <p class="p-historia">Fundada em abril de 2011 e situada estrategicamente na cidade de Santo André, estado de São Paulo, nossa empresa está em uma localização privilegiada, próxima ao Polo Petroquímico e à região de São Mateus, na Zona Leste da cidade de São Paulo.
+
+                            Somos especializados na área de locação de andaimes e marteletes. Com uma década de experiência, estamos comprometidos em fornecer soluções de alta qualidade para atender às necessidades de nossos clientes no setor da construção.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of details 1 -->
+
+
+    <!-- Details 2 -->
+    <div id="products" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2 class="h2-produtos">Conheça nossos produtos!</h2>
+                        <p>Apresentamos andaimes fabricados em tubo de aço carbono, disponíveis em duas configurações padrão: 1,00 m de altura por 1,00 m de comprimento e 1,00 m de altura por 1,50 m de comprimento, ambos equipados com coluna com ponta através do sistema PUSH POINT.
+                            Nossos produtos são fabricados com rigoroso controle de qualidade, garantindo total conformidade com as normas NBR 6494 e NR 18. Dessa forma, oferecemos aos nossos clientes soluções seguras e confiáveis para suas necessidades de andaimes na indústria da construção.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img id="img-ilu" class="img-fluid" src="images/colagem.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 2 -->
+
+
+    <!-- Features -->
+    <div id="features" class="accordion-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h2 class="h2-heading">Nossa localização</h2>
+                    <p class="p-heading">Se houver interesse, prossiga abaixo para obter nossas informações de contato, que incluem número de telefone e endereço de email.</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->   
+    
+                <div class="col-xl-7">
+                    <div id="div-iframe">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.429854223919!2d-46.47900592443816!3d-23.62477216392525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce688af2b82dbd%3A0xac67a3e9c882abf!2sR.%20Sert%C3%A3o%20do%20Paraupaba%2C%20170%20-%20Parque%20Sao%20Rafael%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008320-010!5e0!3m2!1spt-BR!2sbr!4v1695061525696!5m2!1spt-BR!2sbr" width="170%" height="400" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+         
+        </div> <!-- end of container -->
+    </div>
+    <!-- end of features -->
+
+
+
+
+
+ 
+    <!-- Footer -->
+    <div class="footer bg-gray">
+        <img class="decoration-circles" src="images/decoration-circles.png" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Atrios Andaimes
+                        Equipamentos de qualidade com segurança.
+                        E que cabe no seu bolso!</h4>
+                    <div class="social-container">
+                        <div class="round-icon">
+                            <a href="https://api.whatsapp.com/send?phone=11979804519">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    
+                        <!-- Ícone de telefone com link -->
+                        <div class="round-icon phone-icon">
+                            <a href="tel:1120170813">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+                    
+                        <!-- Ícone de email com link -->
+                        <div class="round-icon email-icon">
+                            <a href="mailto:sergio@atriosandaimes.com.br">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    
+                        <!-- Certifique-se de incluir as bibliotecas de ícones Font Awesome no seu projeto para que os ícones funcionem -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+                    </div> <!-- end of social-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+   
+
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
+    	
+    <!-- Scripts -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
